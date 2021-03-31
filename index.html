@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <form class="offset-sm-3 col-md-6">
+        <form class="offset-sm-3 col-md-6 mb-5">
             <div class="row">
                 <div class="offset-sm-3 col-md-6">
                     <div class="form-group text-center">
@@ -26,22 +26,22 @@
                         <select id="select-year" class="custom-select">
                             <option selected>Odaberite semestar(godinu)</option>
                             <optgroup label="1.Godina">
-                                <option value="1">I Semestar</option>
-                                <option value="2">II Semestar</option>
-                                <option value="3">III Semestar</option>
-                                <option value="4">IV Semestar</option>
+                                <option value="1.Godina | I Semestar">I Semestar</option>
+                                <option value="1.Godina | II Semestar">II Semestar</option>
+                                <option value="1.Godina | III Semestar">III Semestar</option>
+                                <option value="1.Godina | IV Semestar">IV Semestar</option>
                             </optgroup>
                             <optgroup label="2.Godina">
-                                <option value="5">V Semestar</option>
-                                <option value="6">VI Semestar</option>
-                                <option value="7">VII Semestar</option>
-                                <option value="8">VIII Semestar</option>
+                                <option value="2.Godina | V Semestar">V Semestar</option>
+                                <option value="2.Godina | VI Semestar">VI Semestar</option>
+                                <option value="2.Godina | VII Semestar">VII Semestar</option>
+                                <option value="2.Godina | VIII Semestar">VIII Semestar</option>
                             </optgroup>
                             <optgroup label="3.Godina">
-                                <option value="9">IX Semestar</option>
-                                <option value="10">X Semestar</option>
-                                <option value="11">XI Semestar</option>
-                                <option value="12">XII Semestar</option>
+                                <option value="3.Godina | IX Semestar">IX Semestar</option>
+                                <option value="3.Godina | X Semestar">X Semestar</option>
+                                <option value="3.Godina | XI Semestar">XI Semestar</option>
+                                <option value="3.Godina | XII Semestar">XII Semestar</option>
                             </optgroup>
                           </select>
                     </div>
@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="offset-sm-3 col-md-6">
                     <div class="form-group text-center">
-                        <label for="exampleInputEmail1">ECTS Bodovi</label>
+                        <label for="ectsBodovi">ECTS Bodovi</label>
                         <input type="number" min="0" class="form-control" id="ectsBodovi" aria-describedby="ectsbodoci" placeholder="Broj ECTS bodova..">
                     </div>
                 </div>
@@ -58,13 +58,26 @@
             <div class="row">
                 <div class="offset-sm-3 col-md-6">
                     <div class="d-flex justify-content-center">
-                        <button type="button" class="btn btn-success">Dodaj predmet</button>
+                        <button onclick="AddSubject()" type="button" class="btn btn-success">Dodaj predmet</button>
                     </div>
                 </div>
             </div>
         </form>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Ime</th>
+                <th scope="col">Semstar(Godina)</th>
+                <th scope="col">ECTS bodovi</th>
+                <th scope="col">Obrisi</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
     </div>
     <script src="plugins\node_modules\jquery\dist\jquery.min.js"></script>
     <script src="plugins\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
