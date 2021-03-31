@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+form{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #5a3636;
+    background-image: linear-gradient(45deg, #5a3636 0%, #ae3126 46%, #c11919 100%);    
+    border-radius: 24px;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+label{
+    color:white;
+}

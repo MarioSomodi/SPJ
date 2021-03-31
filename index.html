@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins\node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="CSS\style.css">
+    <title>LV1_Github</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form class="offset-sm-3 col-md-6">
+            <div class="row">
+                <div class="offset-sm-3 col-md-6">
+                    <div class="form-group text-center">
+                        <label for="exampleInputEmail1">Naziv predmeta</label>
+                        <input type="text" class="form-control" id="inputSubjectName" aria-describedby="subjectNameField" placeholder="Naziv predmeta..">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-3 col-md-6">
+                    <div class="form-group text-center">
+                        <label for="select-year">Semestar(Godina)</label>
+                        <select id="select-year" class="custom-select">
+                            <option selected>Odaberite semestar(godinu)</option>
+                            <optgroup label="1.Godina">
+                                <option value="1">I Semestar</option>
+                                <option value="2">II Semestar</option>
+                                <option value="3">III Semestar</option>
+                                <option value="4">IV Semestar</option>
+                            </optgroup>
+                            <optgroup label="2.Godina">
+                                <option value="5">V Semestar</option>
+                                <option value="6">VI Semestar</option>
+                                <option value="7">VII Semestar</option>
+                                <option value="8">VIII Semestar</option>
+                            </optgroup>
+                            <optgroup label="3.Godina">
+                                <option value="9">IX Semestar</option>
+                                <option value="10">X Semestar</option>
+                                <option value="11">XI Semestar</option>
+                                <option value="12">XII Semestar</option>
+                            </optgroup>
+                          </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-3 col-md-6">
+                    <div class="form-group text-center">
+                        <label for="exampleInputEmail1">ECTS Bodovi</label>
+                        <input type="number" min="0" class="form-control" id="ectsBodovi" aria-describedby="ectsbodoci" placeholder="Broj ECTS bodova..">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-3 col-md-6">
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-success">Dodaj predmet</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="plugins\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="plugins\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+</body>
+</html>
