@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\lista.css">
+    <title>Lista</title>
+</head>
+<body>
+    <h1>Literatura</h1>
+    <div class="accordion" id="container">
+        <div class="card">
+            <div class="card-header " id="owpTitle">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#owpCollapse">
+                  <i class="icon">  +  </i>Osnove web programiranja
+                </button>
+              </h5>
+            </div>
+            <div id="owpCollapse" class="collapse hide" data-parent="#container">
+              <div class="card-body">
+                <ul class="ml-4">
+                    <li value="1" onclick="ChangeImg(this, 'owp')">M. MacDonald, HTML5 - The Missing Manual, O'Reilly, 2014.</li>
+                    <li value="2" onclick="ChangeImg(this, 'owp')">D.S.McFarland, CSS3 - The Missing Manual, O'Reilly, 2013.</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="spjTitle">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#spjCollapse">
+                  <i class="icon">  +  </i>Skriptni programski jezici
+                </button>
+              </h5>
+            </div>
+            <div id="spjCollapse" class="collapse hide" data-parent="#container">
+              <div class="card-body">
+                <ul class="ml-4">
+                    <li value="1" onclick="ChangeImg(this, 'spj')">Powers, S., Naučite Javascript, O'Reilly, 2012</li>
+                    <li value="2" onclick="ChangeImg(this, 'spj')">Flanagan, D., JavaScript: The Definitive Guide: Activate Your Web Pages, O'Reilly, 2011</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="wpspTitle">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#wpspCollapse">
+                  <i class="icon">  +  </i>Web programiranje na strani posluzitelja
+                </button>
+              </h5>
+            </div>
+            <div id="wpspCollapse" class="collapse hide" data-parent="#container">
+              <div class="card-body">
+                <ul class="ml-4">
+                    <li value="1" onclick="ChangeImg(this, 'wpsp')">Lerdorf, R.,  Tatroe, K., MacIntyre, P., Programiranje PHP, O'Reilly Media, 2006.</li>
+                    <li value="2" onclick="ChangeImg(this, 'wpsp')">L. Budin, P. Brođanac, Z. Markučič, S. Perić: Napredno rješavanje problema programiranjem u Pythonu, Element, 2013.</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <img/>
+    <script src="assets\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="assets\node_modules\popper.js\dist\umd\popper.min.js"></script>
+    <script src="assets\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="./js/lista.js"></script>
+</body>
+</html>

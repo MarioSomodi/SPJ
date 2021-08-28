@@ -1,0 +1,22 @@
+<div class="task-list" style="margin-top: 20px;">
+    <!-- <input type="text" ng-model="noviZadatak"/>
+    <button type="button" ng-click="AddTask()">Unesi</button> -->
+    <ul style="float: left;">
+        <h1 style="text-align: center;">Proizvodi</h1>
+        <li ng-repeat="proizvod in oProizvodi">
+            Ime: {{proizvod.ime}} <br/>
+            Cijena: {{proizvod.cijena}} kn <br/>
+            Kolicina: {{proizvod.kolicina}}
+            <button type="button" ng-click="AddToBasket(this)">Dodaj</button>
+        </li>
+    </ul>
+    <ul style="float: right;">
+        <h1 style="text-align: center;">Kosarica</h1>
+        <li ng-repeat="kProizvod in kosarica">
+            Ime: {{kProizvod.k_ime}} <br/>
+            Cijena: {{kProizvod.k_cijena}} kn<br/>
+            Kolicina za kupiti: <input type="number" ng-model="kProizvod.k_kolicina" min="1" max="{{kProizvod.max}}" ng-change="price()">
+        </li>
+        <p>Ukupna cijena: {{ukupnaCijena}}</p>
+    </ul>
+</div>

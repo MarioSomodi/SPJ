@@ -1,0 +1,17 @@
+.centered{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 5px;
+    width: 160px;
+    height: 110px;
+    text-align: center;
+}
+
+.draggable{
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+}

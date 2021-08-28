@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konvert</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><input id="1" type="number"></td>
+            <td>
+                <select id="first">
+                    <option value="btc">BTC</option>
+                    <option value="euro">EURO</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input id="2"  type="number"></td>
+            <td>
+                <select id="second">
+                    <option value="btc">BTC</option>
+                    <option value="euro">EURO</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button onclick="Convert()" type="button">Konvert</button>
+    <script src="assets\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="./js/konvert.js"></script>
+</body>
+</html>

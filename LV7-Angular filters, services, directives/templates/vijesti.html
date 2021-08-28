@@ -1,0 +1,9 @@
+<div class="media">
+	<div class="vijest" ng-repeat="vijest in oVijesti | filter: searchText">
+		<div class="media-body">
+			<h4 class="media-heading"><span class="label label-info">{{vijest.datum | formatDate}}</span> {{vijest.post_naziv}}</h4>
+			<div class="desc">{{vijest.post_tekst}}</div>
+			<button type="button" ng-click="oVijesti.splice($index, 1)" value='Obrisi'>Obrisi</button>
+		</div>
+	</div>
+</div>

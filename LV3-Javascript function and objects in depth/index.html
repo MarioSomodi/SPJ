@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompleksni brojevi</title>
+</head>
+<body>
+    <form>
+        <div class="z1">
+            <label for="z1Realni">Z1: </label>
+            <input placeholder="Realni dio.." style="display: inline;" type="number" id="z1Realni"/>
+            <input placeholder="Imaginarni dio.." style="display: inline;" type="number" id="z1Imaginarni"/>
+            i
+        </div>
+        <div class="z2">
+            <label for="z2Realni">Z2: </label>
+            <input placeholder="Realni dio.." style="display: inline;" type="number" id="z2Realni"/>
+            <input placeholder="Imaginarni dio.." style="display: inline;" type="number" id="z2Imaginarni"/>
+            i
+        </div>
+        <div class="div">
+            <select onchange="ExecuteOperation()" id="operacija">
+                <option value="0">Odaberite operaciju</option>
+                <option value="1">Zbrajanje</option>
+                <option value="2">Mnozenje</option>
+            </select>
+        </div>
+        <div class="z3">
+            <label for="z3Realni">Rezultat Z3: </label>
+            <input readonly placeholder="Realni dio.." style="display: inline;" type="number" id="z3Realni"/>
+            <input readonly placeholder="Imaginarni dio.." style="display: inline;" type="number" id="z3Imaginarni"/>
+            i
+        </div>
+    </form>
+    <script src="./kompleksni_broj.js"></script>
+</body>
+</html>

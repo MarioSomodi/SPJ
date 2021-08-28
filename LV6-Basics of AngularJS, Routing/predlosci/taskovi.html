@@ -1,0 +1,10 @@
+<div class="task-list" style="margin-top: 20px;">
+    <input type="text" ng-model="noviZadatak"/>
+    <button type="button" ng-click="AddTask()">Unesi</button>
+    <ul>
+        <li ng-repeat="zadatak in oZadaci">
+            {{zadatak.name}}
+            <button type="button" ng-click="DeleteTask(this)">Obrisi</button>
+        </li>
+    </ul>
+</div>

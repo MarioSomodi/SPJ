@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribut</title>
+</head>
+<body>
+    <select onchange="GenerateInput(this)" id="atribut">
+        <option value="0">Odaberi atribut</option>
+        <option value="email">Email</option>
+        <option value="number">Number</option>
+        <option value="password">Paswword</option>
+        <option value="text">Text</option>
+    </select>
+    <input readonly placeholder="odaberite atribut">
+    <button type="button" onclick="GenerateJson()">Save to json</button>
+    <script src="assets\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="js/atributi.js"></script>
+</body>
+</html>

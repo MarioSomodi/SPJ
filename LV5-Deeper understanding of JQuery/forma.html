@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma</title>
+    <link rel="stylesheet" href="css/forma.css">
+</head>
+<body>
+    <div id="dvFormContainer">
+        <div class="center">
+            <h1>Podatci o studentu</h1>
+        </div>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="ime">Ime</label></td>
+                        <td><input name="ime" type="text" placeholder="Unesite ime studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prezime">Prezime</label></td>
+                        <td><input name="prezime" type="text" placeholder="Unesite prezime studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="JMBAG">JMBAG</label></td>
+                        <td><input name="JMBAG" type="number" placeholder="Unesite JMBAG studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="OIB">OIB</label></td>
+                        <td><input name="OIB" type="number" placeholder="Unesite OIB studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="datumRodenja">Datum Rodenja</label></td>
+                        <td><input name="datumRodenja" type="text" placeholder="Unesite datum rodenja studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adresa">Adresa</label></td>
+                        <td><input name="adresa" type="text" placeholder="Unesite adresu studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="postanskiBroj">Pbr</label></td>
+                        <td><input name="postanskiBroj" type="number" placeholder="Unesite postanski broj studenta.."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="grad">Grad</label></td>
+                        <td><input name="grad" type="text" placeholder="Unesite grad studenta.."></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="center">
+                <button onclick="Submit()" type="button">Spremi</button>
+            </div>
+        </form>
+    </div>
+<script src="assets\node_modules\jquery\dist\jquery.min.js"></script>
+<script src="js/forma.js"></script>
+</body>
+</html>

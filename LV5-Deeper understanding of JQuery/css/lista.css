@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4{
+    display: inline;
+}
+
+ul{
+    list-style: disc;
+}
+
+#container{
+    width: 50%;
+}
