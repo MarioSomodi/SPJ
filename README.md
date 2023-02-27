@@ -1,10 +1,19 @@
 # Scripting languages
+## Technologies used
+* Git
+* Cascading Style Sheets (CSS)
+* JavaScript (JS)
+* MQ Telemetry Transport (MQTT) - Standard for IoT messaging
+* jQuery
+* AngularJS
+* React
 ## Things I have learned 
-* Learned working with git version control.
+* Learned working with Git version control.
 * Deeper understanding of javascript exception handling.
 * Basic understanding of MQTT (MQ Telemetry Transport).
 * Cookies and local storage usage.
-* Even deeper understanding of JQuery.
+* Even deeper understanding of jQuery.
+* Creating my of JS library with custom functions within it's own namespace 
 * AngularJS basics.
   * Directives.
   * Filters.
@@ -15,3 +24,6 @@
   * Class components.
   * Functional components.
   * Usage of Hooks
+  * Custom components
+  * Routing
+  * State managment
