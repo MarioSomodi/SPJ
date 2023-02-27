@@ -11,9 +11,9 @@
 * Learned working with Git version control.
 * Deeper understanding of javascript exception handling.
 * Basic understanding of MQTT (MQ Telemetry Transport).
-* Cookies and local storage usage.
-* Even deeper understanding of jQuery.
-* Creating my of JS library with custom functions within it's own namespace 
+* Cookie and local storage usage.
+* Deeper understanding of jQuery.
+* Creating my of JS library with custom functions within it's own namespace.
 * AngularJS basics.
   * Directives.
   * Filters.
@@ -23,7 +23,7 @@
 * Basics of React.
   * Class components.
   * Functional components.
-  * Usage of Hooks
-  * Custom components
-  * Routing
-  * State managment
+  * Usage of Hooks.
+  * Custom components.
+  * Routing.
+  * State managment.
