@@ -7,6 +7,8 @@
 * jQuery
 * AngularJS
 * React
+* HyperText Markup Language (HTML)
+* JSX
 ## Things I have learned 
 * Learned working with Git version control.
 * Deeper understanding of javascript exception handling.
